@@ -78,7 +78,7 @@ function ThreadCard({
                   height={24}
                   className='cursor-pointer object-contain'
                 /> */}
-                <Link href={`/thread/${id}`}>
+                <Link href={`/post/${id}`}>
                   <Image
                     src='/assets/reply.svg'
                     alt='heart'
@@ -104,7 +104,7 @@ function ThreadCard({
               </div>
 
               {isComment && comments.length > 0 && (
-                <Link href={`/thread/${id}`}>
+                <Link href={`/post/${id}`}>
                   <p className='mt-1 text-subtle-medium text-gray-1'>
                     {comments.length} repl{comments.length > 1 ? "ies" : "y"}
                   </p>
@@ -136,7 +136,7 @@ function ThreadCard({
             />
           ))}
 
-          <Link href={`/thread/${id}`}>
+          <Link href={`/post/${id}`}>
             <p className='mt-1 text-subtle-medium text-gray-1'>
               {comments.length} repl{comments.length > 1 ? "ies" : "y"}
             </p>
