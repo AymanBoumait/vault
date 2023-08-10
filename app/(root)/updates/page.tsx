@@ -15,7 +15,7 @@ const Page = async () => {
         <hr className="separating-line" />
 
         <p className="text-light-2">Subscribe to the newsletter</p>
-        <a href="https://mynewsletter.vercel.app/">
+        <a href="https://mynewsletter.vercel.app/" target="_blank">
           <button className="user-card_btn mb-3" style={{ fontSize: '18px', padding: '12px 24px' }}>
             Subscribe
           </button>
@@ -23,7 +23,7 @@ const Page = async () => {
         <hr className="separating-line" />
 
         <p className="text-light-2">Join the Discord server</p>
-        <a href="https://discord.gg/yBwcTR7AST">
+        <a href="https://discord.gg/yBwcTR7AST" target="_blank">
           <button className="user-card_btn mb-3" style={{ fontSize: '18px', padding: '12px 24px' }}>
             Discord
           </button>
@@ -36,12 +36,13 @@ const Page = async () => {
         </p>
         <hr className="separating-line" />
         <div>
-          <p className="text-light-2 pt-6">What's new?</p>
+          <p className="text-light-2 pt-6">What's new? {"8/10/2023"}</p>
           <ul className="list-disc pl-6 text-light-3">
-            <li>Added new features to the platform</li>
-            <li>Improved user interface for better usability</li>
-            <li>Fixed various bugs</li>
+            <li>Added new features to the platform.</li>
+            <li>Improved user interface for better usability.</li>
+            <li>Fixed various bugs.</li>
             <li>I deleted the database by a mistake and now all the posts that I was posting when I was making the platform are gone. I miss them.</li>
+            <li>The buttons now open in a new tab.</li>
           </ul>
         </div>
       </div>
