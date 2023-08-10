@@ -32,7 +32,7 @@ export const sidebarLinks = [
     {
       imgURL: "/assets/updates.svg",
       route: "/updates",
-      label: "Updates",
+      label: "U&S",
     },
   ];
   

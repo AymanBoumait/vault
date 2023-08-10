@@ -146,7 +146,7 @@ function ThreadCard({
       <p className='text-subtle-medium text-gray-1'>
             {formatDateString(createdAt)}</p>
 
-      {/* {!isComment && community && (
+      {!isComment && community && (
         <Link
           href={`/communities/${community.id}`}
           className='mt-5 flex items-center'
@@ -164,7 +164,7 @@ function ThreadCard({
             className='ml-1 rounded-full object-cover'
           />
         </Link>
-      )} */}
+      )}
     </article>
   );
 }
