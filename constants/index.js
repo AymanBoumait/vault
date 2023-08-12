@@ -1,36 +1,36 @@
 export const sidebarLinks = [
     {
-      imgURL: "/assets/home.svg",
+      imgURL: "/assets/home1.svg",
       route: "/",
       label: "Home",
     },
     {
-      imgURL: "/assets/search.svg",
+      imgURL: "/assets/search1.svg",
       route: "/search",
       label: "Search",
     },
     {
-      imgURL: "/assets/heart.svg",
+      imgURL: "/assets/notifications.svg",
       route: "/activity",
       label: "Activity",
     },
     {
-      imgURL: "/assets/create.svg",
+      imgURL: "/assets/create1.svg",
       route: "/create-post",
       label: "Create a Post",
     },
     {
-      imgURL: "/assets/community.svg",
+      imgURL: "/assets/community1.svg",
       route: "/communities",
-      label: "Communities",
+      label: "Admin",
     },
     {
-      imgURL: "/assets/user.svg",
+      imgURL: "/assets/user1.svg",
       route: "/profile",
       label: "Profile",
     },
     {
-      imgURL: "/assets/updates.svg",
+      imgURL: "/assets/updates1.svg",
       route: "/updates",
       label: "U&S",
     },

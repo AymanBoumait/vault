@@ -8,25 +8,22 @@ const Page = async () => {
       <div className="max-w-md w-full mx-auto">
         <div className="mb-8">
           <p className="text-light-2">Contact us via email</p>
-          <div className="flex items-center">
+          <div className="flex flex-wrap items-center gap-3">
             <a href="mailto:ayman.b.dev@gmail.com">
               <button className="user-card_btn mt-2" style={{ fontSize: '20px', padding: '16px 28px' }}>
                 Contact
               </button>
             </a>
-            <hr className="separating-line ml-3 mr-3" />
             <a href="https://mynewsletter.vercel.app/" target="_blank">
               <button className="user-card_btn mt-2" style={{ fontSize: '20px', padding: '16px 28px' }}>
                 Subscribe
               </button>
             </a>
-            <hr className="separating-line ml-3 mr-3" />
             <a href="https://discord.gg/yBwcTR7AST" target="_blank">
               <button className="user-card_btn mt-2" style={{ fontSize: '20px', padding: '16px 28px' }}>
                 Discord
               </button>
             </a>
-            <hr className="separating-line ml-3 mr-3" />
             <a href="/privacypolicy">
               <button className="user-card_btn mt-2" style={{ fontSize: '20px', padding: '16px 28px' }}>
                 Privacy Policy
